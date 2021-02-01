@@ -2,9 +2,10 @@
   "name": "shorten",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon -L server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/agxcd/shorten/issues"
   },
-  "homepage": "https://github.com/agxcd/shorten#readme"
+  "homepage": "https://github.com/agxcd/shorten#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
